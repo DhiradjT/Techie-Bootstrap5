@@ -12,6 +12,13 @@ body {
     height: 969px;
 }
 
+.count {
+    background-image: url("img/counts-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
 .navbar-brand {
     font-family: "Poppins", sans-serif;
     color: white;
@@ -31,6 +38,20 @@ body {
     padding: 0 3px;
   }
 
+  .counts-text {
+      color:rgba(255, 255, 255, 0.8);
+      font-size: 15px;
+      font-family: "Open Sans", sans-serif;
+      
+  }
+
+  .thecount {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
 
   .hero-h1 {
     font-family: 'Poppins', sans-serif;
@@ -44,6 +65,9 @@ body {
   
   .hero-h2 {
     color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
   }
 
   .about-h2 {
@@ -68,5 +92,9 @@ body {
     padding: 10px 40px 10px 40px;
     border-radius: 5px;
     font-weight: 500;
-    background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
+    background: linear-gradient(50deg, #5846f9 0%, #7b27d8 100%);
+ }
+
+ .btn.hallo {
+     border-radius: 1px white;
  }
