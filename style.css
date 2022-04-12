@@ -1,56 +1,25 @@
-.container {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.col-md-6 {
     background-color: red;
-    color: white;
     border: 1px solid black;
   }
   
-  .container-sm {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: red;
-    color: white;
+  .col-md-4 {
+    background-color: blue;
     border: 1px solid black;
   }
   
-  .container-md {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: red;
-    color: white;
+  .col-md-3 {
+    background-color: yellow;
     border: 1px solid black;
   }
   
-  .container-lg {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: red;
-    color: white;
+  .col-md-12 {
+    background-color: pink;
     border: 1px solid black;
   }
   
-  .container-xl {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: red;
-    color: white;
-    border: 1px solid black;
-  }
-  
-  .container-xxl {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: red;
-    color: white;
-    border: 1px solid black;
-  }
-  
-  .container-fluid {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: red;
-    color: white;
+  .row-md-12 {
+    background-color: greenyellow;
     border: 1px solid black;
   }
   
