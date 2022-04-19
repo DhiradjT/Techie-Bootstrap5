@@ -5,19 +5,14 @@
     font-family: "Open Sans", sans-serif;
   }
 
+  /* HERO SECTION*/
+
   .home {
     background-image: url("img/counts-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 969px;
-}
-
-  .count {
-    background-image: url("img/counts-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-}
+ }
 
   .navbar-brand {
     font-family: "Poppins", sans-serif;
@@ -27,8 +22,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-top: 10px;
-  }
-
+ }
 
   a {
     text-decoration: none;
@@ -36,84 +30,31 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     padding: 0 3px;
-  }
+ }
 
   .navbar a:hover {
     color: #8577fb;
     font-family: "Poppins", sans-serif;
-  }
-
-  .counts-text {
-      color:rgba(255, 255, 255, 0.8);
-      font-size: 15px;
-      font-family: "Open Sans", sans-serif;
-      
-  }
-
-  .thecount {
-    font-family: "Poppins", sans-serif;
-    color: white;
-    font-size: 50px;
-    font-weight: 600;
-  }
-
-  .card {
-    margin: 20px;
-  }
-
-  h1 {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    margin: 0;
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 64px;
-    color: white;
-  }
-
-  .services-h2 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    color: #444444;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .hero-h2 {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .about-h2 {
-    color:#2c4964;
-    font-size: 32px;
-    font-weight: 600;
-  }
-
-  li {
-    list-style-type: none;
  }
 
- .bi  {
-   color: #5846f9;
-   padding-right: 4px;
-   font-size: 20px;
- }
+ h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 0;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+  color: white;
+}
 
- .btn.read-more {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 1px;
-    padding: 10px 50px 10px 28px;
-    border-radius: 5px;
-    font-weight: 500;
-    background: linear-gradient(50deg, #5846f9 0%, #7b27d8 100%);
- }
+.hero-h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
 
- 
- .btn.get-started-1 {
+.btn.get-started-1 {
   font-family: 'Poppins', sans-serif;
   padding: 10px 35px 10px 35px;
   border: 2px solid white;
@@ -130,5 +71,104 @@
   border: 2px solid rgba(255, 255, 255, 0.5);
   transition: 0.3s;
 }
+
+  /* COUNTS SECTION*/
+  .count {
+    background-image: url("img/counts-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+ }
+
+
+  .counts-text {
+      color:rgba(255, 255, 255, 0.8);
+      font-size: 15px;
+      font-family: "Open Sans", sans-serif;  
+  }
+
+  .thecount {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  /* SERVICES SECTION*/
+  .services-h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #444444;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .card {
+    margin: 20px;
+  }
+  
+   /* ABOUT SECTION*/
+  .abouttext {
+    color:#2c4964;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+ .btn.read-more {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  padding: 10px 50px 10px 28px;
+  border-radius: 5px;
+  font-weight: 500;
+  background: linear-gradient(50deg, #5846f9 0%, #7b27d8 100%);
+}
+
+
+  li {
+    list-style-type: none;
+ }
+
+ /* All Bootstrap icons `styled`*/
+
+ .bi-check-circle  {
+   color: #5846f9;
+   padding-right: 4px;
+   font-size: 20px;
+ }
+
+ .bi-dribbble  {
+  color: #47aeff;
+  font-size: 35px;
+ }
+
+.bi-file-code  {
+  color: #ffa76e;
+  font-size: 35px;
+ }
+
+.bi-speedometer2  {
+  color: #e80368;
+  font-size: 35px;
+ }
+
+ 
+.bi-stack  {
+  color: #ffbb2c;
+  font-size: 35px;
+ }
+
+ 
+.bi-display  {
+  color: #ff5828;
+  font-size: 35px;
+ }
+ 
+.bi-google  {
+  color: #11dbcf;
+  font-size: 35px;
+}
+
+ /* End All Bootstrap icons `styled`*/
 
 
