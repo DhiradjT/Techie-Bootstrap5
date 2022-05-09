@@ -172,3 +172,50 @@
  /* End All Bootstrap icons `styled`*/
 
 
+ /* Features section*/
+
+ .bi-newspaper {
+   font-size: 50px;
+   color: #5846f9;
+ }
+
+ .bi-box {
+  font-size: 50px;
+  color: #5846f9;
+}
+
+.bi-images {
+  font-size: 50px;
+  color: #5846f9;
+}
+
+.bi-shield {
+  font-size: 50px;
+  color: #5846f9;
+}
+
+/*End Features section*/
+
+
+/* Portfolio section*/
+
+.portfolio-img img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/* footer section */
+
+#footer {
+  background-image: url("img/counts-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+
+
+
