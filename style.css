@@ -175,23 +175,28 @@
  /* Features section*/
 
  .bi-newspaper {
-   font-size: 50px;
+   font-size: 48px;
    color: #5846f9;
  }
 
  .bi-box {
-  font-size: 50px;
+  font-size: 48px;
   color: #5846f9;
 }
 
 .bi-images {
-  font-size: 50px;
+  font-size: 48px;
   color: #5846f9;
 }
 
 .bi-shield {
-  font-size: 50px;
+  font-size: 48px;
   color: #5846f9;
+}
+
+h4.features-text {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 /*End Features section*/
@@ -199,12 +204,11 @@
 
 /* Portfolio section*/
 
-.portfolio-img img {
+
+.portfolio-img {
+  padding: 20px;
   width: 100%;
-  height: auto;
 }
-
-
 
 
 /* footer section */
