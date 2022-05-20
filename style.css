@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
   body {
     margin: 0;
     padding: 0;
@@ -169,6 +170,11 @@
   font-size: 35px;
 }
 
+.bi-question-circle {
+  color: #8577fb;
+  font-size: 25px;
+}
+
  /* End All Bootstrap icons `styled`*/
 
 
@@ -211,13 +217,83 @@ h4.features-text {
 }
 
 
+/* Pricing section*/ 
+
+.card-header-2 {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 15px;
+  color: #2c4964;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.pricing-header {
+  font-family: 'Roboto', sans-serif;
+  color: #5846f9;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.pricing-header span {
+  font-family: 'Roboto', sans-serif;
+  color: #bababa;
+  font-size: 16px;
+}
+
+.buy-now {
+  background: linear-gradient(50deg, #5846f9 0%, #7b27d8 100%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding: 10px 35px;
+  border-radius: 4px;
+}
+
+/* faq section */
+
+#faq {
+  background: linear-gradient(50deg, #5846f9 0%, #7b27d8 100%);
+  height: 110vh;
+}
+
+.accordion-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.accordion-button:hover {
+  color:#5846f9 ;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* Contact section */
+
+.subscribe {
+  background-color: rgba(178, 115, 250, 0.8);
+}
+
+iframe {
+  position: relative;
+  left: 20px;
+}
+
 /* footer section */
 
 #footer {
   background-image: url("img/counts-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 50vh;
+}
+
+.bi-twitter {
+  background-color: rgba(106, 0, 212, 0.5);
+  font-size: 20px;
 }
 
 
