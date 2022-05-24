@@ -224,7 +224,7 @@ h4.features-text {
   padding: 20px 15px;
   color: #2c4964;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16px; 
 }
 
 .pricing-header {
@@ -252,7 +252,7 @@ h4.features-text {
 
 #faq {
   background: linear-gradient(50deg, #5846f9 0%, #7b27d8 100%);
-  height: 110vh;
+  height: 75vh;
 }
 
 .accordion-button {
@@ -267,20 +267,17 @@ h4.features-text {
 }
 
 
-
-
-
-
 /* Contact section */
-
-.subscribe {
-  background-color: rgba(178, 115, 250, 0.8);
-}
 
 iframe {
   position: relative;
   left: 20px;
 }
+
+.button-message .btn {
+  background-color:#5846f9;
+}
+
 
 /* footer section */
 
@@ -288,12 +285,19 @@ iframe {
   background-image: url("img/counts-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 30vh;
 }
 
-.bi-twitter {
-  background-color: rgba(106, 0, 212, 0.5);
-  font-size: 20px;
+.subscribe {
+  background-color: rgba(178, 115, 250, 0.8);
+}
+
+hr.line {
+  color: white;
+}
+
+a {
+  color: white;
 }
 
 
