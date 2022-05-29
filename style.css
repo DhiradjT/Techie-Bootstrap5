@@ -108,6 +108,20 @@
   .card {
     margin: 20px;
   }
+
+
+
+  /* Testimonial section */
+
+  .testimonial-img img  {
+    height: 125px;
+    width: 130px;
+  }
+
+
+
+
+  /* End Testimonial section */
   
    /* ABOUT SECTION*/
   .abouttext {
@@ -215,6 +229,8 @@ h4.features-text {
   padding: 20px;
   width: 100%;
 }
+
+.btn-group .portfolio-buttons  
 
 
 /* Pricing section*/ 
