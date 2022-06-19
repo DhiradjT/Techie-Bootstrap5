@@ -55,10 +55,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.hero-image img {
-  width: 50%;
-}
-
 .btn.get-started-1 {
   font-family: 'Poppins', sans-serif;
   padding: 10px 35px 10px 35px;
@@ -231,6 +227,23 @@
   font-size: 25px;
 }
 
+.bi-telephone {
+  font-size: 32px;
+  color: #5846f9;
+  padding-top: 15px;
+}
+
+.bi-envelope {
+  font-size: 32px;
+  color: #5846f9;
+  padding-top: 15px;
+} 
+.bi-geo-alt {
+  font-size: 32px;
+  color: #5846f9;
+  padding-top: 15px;
+}
+
  /* End All Bootstrap icons `styled`*/
 
 
@@ -314,7 +327,7 @@ h4.features-text {
 
 .card-header-2 {
   font-family: "Poppins", sans-serif;
-  padding: 20px 15px;
+  padding: 10px;
   color: #2c4964;
   font-weight: 600;
   font-size: 16px; 
@@ -358,7 +371,11 @@ h4.features-text {
 
 #faq {
   background: linear-gradient(50deg, #5846f9 0%, #7b27d8 100%);
-  height: 55vh;
+  height: 100vh;
+}
+
+.accordion-header {
+  padding: 10px;
 }
 
 .accordion-button {
@@ -384,6 +401,11 @@ iframe {
   background-color:#5846f9;
 }
 
+.contact-text {
+  font-size: 20px;
+  color: #2c4964;
+  font-weight: 700;
+}
 
 
 /* footer section */
@@ -392,7 +414,7 @@ iframe {
   background-image: url("img/counts-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh;
+  height: 140vh;
 }
 
 .subscribe {
